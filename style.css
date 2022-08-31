@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS';
+}
+.menu-container {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  padding-bottom: 60px;
+  background-color: rgb(45,107,176);
+  padding-left: 220px;
+  padding-right: 130px;
+}
+.menu {
+  width: 900px;
+  display: flex;
+  justify-content: space-around;
+  flex: 2 2 auto;
+}
+.links {
+  padding-right: 35px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 24px;
+}
+.link1,
+.link2 {
+  margin-right: 140px;
+  color: black;
+}
+.link3 {
+  color: black;
+}
+.header-logo {
+  flex: 2 2 auto;
+  color: rgb(255,246,76);
+  font-size: 30px;
+}
+.main-info-container {
+  background-color: rgb(45,107,176);
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+  
+
+}
+.img-city {
+  height: auto;
+  width: 800px;
+  padding-right: 150px;
+}
+.main-info {
+  display: flex;
+  justify-content: space-around;
+  flex: 1 1 auto;
+  font-size: 25px;
+  padding-left: 70px;
+}
+.infos {
+  padding: 40px;
+  border: 1px solid black;
+  border-radius: 50px;
+  background-color: rgb(255,246,76);
+}
+.infos div {
+  padding: 5px;
+}
+.button {
+  box-sizing: content-box;
+  margin-top: 20px;
+  text-align: center;
+}
+.add-info-container {
+  display: flex;
+}
+.citizens-text {
+  text-align: center;
+  padding-top: 25px;
+}
+.spongebobimg {
+  height: auto;
+  width: 300px;
+}
+.patrickimg {
+  height: auto;
+  width: 200px;
+}
+.squidwardimg {
+  height: auto;
+  width: 180px;
+}
+.planktonimg {
+  height: auto;
+  width: 100px;
+}
+.citizens-list {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-right: 50px;
+  font-size: 100px;
+  border: 1px solid black;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-right: 20px;
+  border-radius: 50px;
+}
+.names {
+  
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  text-align: center;
+  margin: 30px;
+  padding-left: 250px;
+}
+.names2 {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: space-around;
+  padding-left: 250px;
+  
+}
+.quote-section {
+  background-color: rgb(77,191,206);
+}
+.quote {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  font-size: 50px;
+}
+.author {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 80px;
+  padding-right: 750px;
+  font-size: 30px;
+}
+.sea-section {
+  display: flex;
+  justify-content: center;
+  margin: 140px;
+  border: 1px rgb(255,246,76);
+  border-radius: 10px;
+  margin-right: 700px;
+  margin-left: 700px;
+  background-color: rgb(255,246,76);
+  font-size: 30px;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  flex-direction: column;
+  padding-left: 100px;
+}
+.button2 {
+  padding-left: 170px;
+  padding-top: 20px;
+}
+.copyright-section {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(18,88,167);
+  padding: 30px;
+  color: white;
+}
