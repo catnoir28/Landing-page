@@ -1,1 +1,1 @@
-# Landing-page
+In this project I'm going to create a landing page, using my HTML and CSS skills.
