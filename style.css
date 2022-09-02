@@ -3,12 +3,14 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Trebuchet MS';
+  text-decoration: none;
 }
+
 .menu-container {
   display: flex;
   justify-content: center;
   padding: 30px;
-  padding-bottom: 60px;
+  padding-bottom: 3 0px;
   background-color: rgb(45,107,176);
   padding-left: 220px;
   padding-right: 130px;
@@ -29,6 +31,7 @@
 .link2 {
   margin-right: 140px;
   color: black;
+  
 }
 .link3 {
   color: black;
@@ -43,8 +46,6 @@
   display: flex;
   justify-content: center;
   padding-bottom: 30px;
-  
-
 }
 .img-city {
   height: auto;
@@ -71,6 +72,9 @@
   box-sizing: content-box;
   margin-top: 20px;
   text-align: center;
+  border: 1px solid rgb(77,191,206);
+  border-radius: 50px;
+  background-color: rgb(77,191,206);
 }
 .add-info-container {
   display: flex;
